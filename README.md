@@ -1,7 +1,7 @@
 # applicacorp-backend-test - Luiz Henrique Palomo
 
 ## Clone Repo
-To run the project clone the repository at (https://github.com/PalomoLH/applicacorp-backend-test.git)[https://github.com/PalomoLH/applicacorp-backend-test.git]
+To run the project clone the repository at https://github.com/PalomoLH/applicacorp-backend-test.git
 To do that open your terminal and type
 
 ```
@@ -15,7 +15,7 @@ cd applicacorp-backend-test
 ```
 
 ## Install Node.js and NPM
-Then make sure you have node.js and npm installed at your machine, if not install it at (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)[https://docs.npmjs.com/downloading-and-installing-node-js-and-npm]
+Then make sure you have node.js and npm installed at your machine, if not install it at https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 ## Install dependencies
 On the root of the project run
