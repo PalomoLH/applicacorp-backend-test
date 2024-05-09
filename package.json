@@ -1,0 +1,16 @@
+{
+  "name": "applicacorp-backend-test",
+  "version": "1.0.0",
+  "description": "Test for ApplicaCorp - Backend Simple routes",
+  "main": "server.js",
+  "private": false,
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "PalomoLH",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
