@@ -1,13 +1,10 @@
 const getPosts = require("../handlers/posts");
 
 const posts = (req, res) => {
-  const config = {
-    page: 1,
-    size: 10,
-    query: "",
-  };
+  const page = parseInt((req.query.page > 0 && req.query.page) || 1);
+  const size = parseInt((req.query.size > 0 && req.query.size) || 10);
 
-  res.json(getPosts(config.page, config.size, config.query));
+  getPosts(page, size, res);
 };
 
 module.exports = posts;

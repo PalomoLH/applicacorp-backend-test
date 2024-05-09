@@ -40,10 +40,10 @@ Or you can run this at your terminal
 curl --location 'http://localhost:3000/posts'
 ```
 
-To add options you can pass a query string such as `'http://localhost:3000/posts?page=2&size=20&userId=3'`
+To add options you can pass a query string such as `'http://localhost:3000/posts?page=2&size=10'`
 
 Or again run this at your terminal
 
 ```
-curl --location 'http://localhost:3000/posts?page=2&size=20&userId=3'
+curl --location 'http://localhost:3000/posts?page=2&size=10'
 ```
